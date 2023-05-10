@@ -2,13 +2,13 @@
 body{
 	font-family: sans-serif;
 }
-p::before{
+div::before{
 	content: "Before Element ";
 	color: rgb(255,0,0);
 	font-size: 20px;
 	font-weight: 600;
 }
-p::after{
+div::after{
 	content: " After Element";
 	color: rgb(255,0,0);
 	font-size: 20px;
